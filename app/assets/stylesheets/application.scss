@@ -492,3 +492,17 @@ a {
 .error {
   color: #E4584C;
 }
+
+.btn-host{
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.btn-host:hover{
+  background-color: #00A699;
+}
+
+.btn-host:focus{
+  background-color: #00A699;
+}
