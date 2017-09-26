@@ -19,7 +19,7 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <%= link_to "Become a host", new_room_path, class: "btn btn-form btn-small btn-host" %>
+          <%= link_to "Become a host", new_room_path, class: "btn btn-form btn-small", id: "btn-host" %>
         </li>
 
         <% if (!user_signed_in?) %>
